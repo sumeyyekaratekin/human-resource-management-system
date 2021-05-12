@@ -4,7 +4,7 @@
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Technologies](#technologies)
-- [Database Diagram](#database)
+- [Database](#database)
 - [SQL Query](#sql-query)
 - [Endpoints](#endpoints)
 
@@ -14,7 +14,7 @@
 * Maven
   
 
-## Database Diagram
+## Database
 
 ![database](https://github.com/sumeyyekaratekin/human-resource-management-system/blob/main/database/hrms_db.png) 
 
