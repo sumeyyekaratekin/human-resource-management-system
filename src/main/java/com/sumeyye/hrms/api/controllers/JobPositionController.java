@@ -11,7 +11,7 @@ import com.sumeyye.hrms.business.abstracts.JobPositionService;
 import com.sumeyye.hrms.entities.concretes.JobPosition;
 
 @RestController
-@RequestMapping("/api/jobposition")
+@RequestMapping("/api/jobpositions")
 public class JobPositionController {
     private final JobPositionService jobPositionService;
 
