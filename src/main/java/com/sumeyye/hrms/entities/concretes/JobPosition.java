@@ -18,6 +18,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class JobPosition {
 	
+	public JobPosition(String position) {
+        super();
+        this.position = position;
+    }
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	
@@ -25,6 +29,6 @@ public class JobPosition {
 	private int id;
 	
 	@Column(name="title")
-	private String title;
+	private String position;
 	
 }
